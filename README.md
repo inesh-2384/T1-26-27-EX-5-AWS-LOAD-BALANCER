@@ -158,10 +158,6 @@ Add the tag:
 
 Choose **Create Auto Scaling group**.
 
-#### Output
-
-> Paste the screenshot showing the Auto Scaling Group with desired capacity 2.
-
 ---
 
 ### Step 6: Verify Load Balancing
@@ -175,12 +171,6 @@ Status: healthy
 Then open EC2 → Load Balancers → LabELB.
 ```
 Copy the DNS Name and open it in a browser.
-
-### Output
-
-Paste the screenshot showing both healthy targets.
-
-Paste the screenshot showing the application accessed through the Load Balancer DNS.
 
 ### Step 7: Test Auto Scaling
 
@@ -202,12 +192,6 @@ Auto Scaling should launch additional instances.
 
 Open EC2 → Instances and verify that more than two Lab Instance instances are running.
 
-### Output
-
-Paste the screenshot showing the CloudWatch alarm in In alarm state.
-
-Paste the screenshot showing additional Lab Instance EC2 instances.
-
 ### Step 8: Terminate Web Server 1
 
 Select Web Server 1.
@@ -218,9 +202,6 @@ Instance state → Terminate instance
 
 Confirm the termination.
 
-### Output
-
-Paste the screenshot showing Web Server 1 terminated.
 
 ## OUTPUT
 
