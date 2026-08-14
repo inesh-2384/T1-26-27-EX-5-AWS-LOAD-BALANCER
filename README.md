@@ -237,6 +237,6 @@ Maximum Instances   : 6
 Scaling Policy      : LabScalingPolicy
 CPU Target          : 60%
 ```
-## vRESULT
+## RESULT
 
 Thus, an AWS Application Load Balancer and Auto Scaling infrastructure were successfully created and configured. Traffic was successfully distributed across healthy EC2 instances, and additional instances were automatically launched when CPU utilization increased.
